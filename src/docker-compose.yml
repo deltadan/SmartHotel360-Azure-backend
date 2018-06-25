@@ -59,10 +59,10 @@ services:
     image: microsoft/mssql-server-linux:2017-GA
 
   tasks-data:
-    image: postgres:10.1
+    image: postgres:10.4
 
   reviews-data:
-    image: postgres:10.1
+    image: postgres:10.4
   
 
 

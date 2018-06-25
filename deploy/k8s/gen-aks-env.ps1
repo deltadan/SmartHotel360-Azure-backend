@@ -1,6 +1,6 @@
 ﻿Param(
     [parameter(Mandatory=$true)][string]$resourceGroupName,
-    [parameter(Mandatory=$false)][string]$location="eastus",
+    [parameter(Mandatory=$false)][string]$location="eastus2",
     [parameter(Mandatory=$false)][string]$registryName,
     [parameter(Mandatory=$true)][string]$orchestratorName,
     [parameter(Mandatory=$false)][string]$dnsName="",
